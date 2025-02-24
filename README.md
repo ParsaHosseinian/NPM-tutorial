@@ -12,4 +12,4 @@
 - For anyone who wants to use npm to manage packages for their javascript projects with no need to remember its commands because you have access to all of them here 😉
 
 
-### created with ❤️ by Parsa Hosseii
+### 📌 created with ❤️ by Parsa Hosseii
