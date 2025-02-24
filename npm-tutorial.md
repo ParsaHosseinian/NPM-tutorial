@@ -135,13 +135,7 @@ npm publish  # Publish package to NPM registry
 
 - Add a `.npmignore` file to exclude files from being published.
 
-## ✅ Dealing with .git Folder Visibility (Similar to Git Section)
-
-1. Press `Ctrl + P` in VSCode
-2. Type `>settings` and click on **Preferences: Open User Settings (JSON)**
-3. Change the value of `"**/.git"` from `true` to `false` to make it visible.
-
 ---
 
-### 📌 Created with ❤️ by Parsa Hosseinian
+### 📌 Created with ❤️ by Parsa Hosseii
 
