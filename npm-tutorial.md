@@ -23,6 +23,7 @@ npm init -y  # Creates package.json with default values
 npm install package-name  # Install a package locally (to node_modules)
 npm install -g package-name  # Install a package globally
 npm i package-name  # Shorter version of install command
+npm i package-name@version # Install a specific version of the package you want
 ```
 
 ## ✅ Installing All Dependencies (From package.json)
