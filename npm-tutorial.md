@@ -78,6 +78,7 @@ npm run start
 ```sh
 npm list  # Lists installed dependencies
 npm list -g  # Lists globally installed dependencies
+npm list --depth 0 # Lists only only installed dependencies in depth 0 of the dependency tree
 npm ls package-name  # Shows details of a specific package
 ```
 
