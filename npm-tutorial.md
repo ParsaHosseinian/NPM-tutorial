@@ -38,6 +38,9 @@ npm install  # Installs all dependencies listed in package.json
 ```sh
 npm uninstall package-name  # Removes a package
 npm uninstall -g package-name  # Removes a globally installed package
+npm un package-name # Removes a package (un is an abbreviation for uninstall)
+npm remove package-name # Removes a package
+npm rm package-name # Removes a package (rm is an abbreviation for remove)
 ```
 
 ## ✅ Updating Packages
@@ -86,6 +89,14 @@ npm ls package-name  # Shows details of a specific package
 
 ```sh
 npm install package-name --save-dev  # Installs a package as a dev dependency
+```
+
+## ✅ Set and Get configs
+
+```sh
+npm config set init-author-name "Parsa"  # From now on, everytime that `npm init -y` command is executed, package.json file will have the author's name specified as Parsa. another example:
+npm config set init-license "MIT" # From now on, everytime that `npm init -y` command is executed, package.json file will have the license specified as MIT
+npm get init-license # Shows you the license name
 ```
 
 ## ✅ Clearing Cache
